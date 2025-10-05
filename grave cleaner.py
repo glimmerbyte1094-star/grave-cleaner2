@@ -147,4 +147,4 @@ if __name__ == "__main__":
         # (Your GUI code here)
 
     # 5. Proceed with cleanup or other operations
-    # kill_and_wipe()  # Uncomment or call from your GUI
+    # kill_and_wipe()  # Uncomment or call from your GUI what does this all do
