@@ -21,7 +21,7 @@ VERSION = "1.0.0"
 def check_for_update():
     try:
         # Replace with your raw GitHub URL of your script
-        latest_url = "https://raw.githubusercontent.com/yourusername/yourrepo/main/grave_cleaner.py"
+        latest_url = "https://raw.githubusercontent.com/glimmerbyte1094-star/grave-cleaner2/main/grave%20cleaner.py"
         with urllib.request.urlopen(latest_url) as response:
             latest_code = response.read().decode('utf-8')
         match = re.search(r'VERSION\s*=\s*["\']([^"\']+)["\']', latest_code)
